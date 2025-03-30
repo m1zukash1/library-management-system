@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<authors>
+    <author>
+        <authorId>1</authorId>
+        <firstName>George</firstName>
+        <lastName>Orwell</lastName>
+    </author>
+    <author>
+        <authorId>2</authorId>
+        <firstName>J.K.</firstName>
+        <lastName>Rowling</lastName>
+    </author>
+    <author>
+        <authorId>3</authorId>
+        <firstName>Isaac</firstName>
+        <lastName>Asimov</lastName>
+    </author>
+    <author>
+        <authorId>4</authorId>
+        <firstName>Stephen</firstName>
+        <lastName>King</lastName>
+    </author>
+    <author>
+        <authorId>5</authorId>
+        <firstName>Yuval Noah</firstName>
+        <lastName>Harari</lastName>
+    </author>
+</authors>

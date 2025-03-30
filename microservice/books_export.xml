@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<books>
+    <book>
+        <bookId>1</bookId>
+        <title>1984</title>
+        <isbn>9780451524935</isbn>
+        <publicationYear>1949</publicationYear>
+    </book>
+    <book>
+        <bookId>2</bookId>
+        <title>Animal Farm</title>
+        <isbn>9780451526342</isbn>
+        <publicationYear>1945</publicationYear>
+    </book>
+    <book>
+        <bookId>3</bookId>
+        <title>Harry Potter and the Sorcerer's Stone</title>
+        <isbn>9780590353427</isbn>
+        <publicationYear>1997</publicationYear>
+    </book>
+    <book>
+        <bookId>4</bookId>
+        <title>Harry Potter and the Chamber of Secrets</title>
+        <isbn>9780439064873</isbn>
+        <publicationYear>1998</publicationYear>
+    </book>
+    <book>
+        <bookId>5</bookId>
+        <title>Foundation</title>
+        <isbn>9780553293357</isbn>
+        <publicationYear>1951</publicationYear>
+    </book>
+    <book>
+        <bookId>6</bookId>
+        <title>It</title>
+        <isbn>9781501142970</isbn>
+        <publicationYear>1986</publicationYear>
+    </book>
+    <book>
+        <bookId>7</bookId>
+        <title>The Shining</title>
+        <isbn>9780307743657</isbn>
+        <publicationYear>1977</publicationYear>
+    </book>
+    <book>
+        <bookId>8</bookId>
+        <title>Sapiens: A Brief History of Humankind</title>
+        <isbn>9780062316097</isbn>
+        <publicationYear>2011</publicationYear>
+    </book>
+    <book>
+        <bookId>9</bookId>
+        <title>Homo Deus: A Brief History of Tomorrow</title>
+        <isbn>9780062464316</isbn>
+        <publicationYear>2015</publicationYear>
+    </book>
+    <book>
+        <bookId>10</bookId>
+        <title>The Institute</title>
+        <isbn>9781982110566</isbn>
+        <publicationYear>2019</publicationYear>
+    </book>
+</books>
