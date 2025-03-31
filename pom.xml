@@ -38,6 +38,6 @@
     <modules>
         <module>discovery-service</module>
         <module>microservice</module>
-        <!-- Add additional modules here in the future -->
+        <module>config-server</module>
     </modules>
 </project>
