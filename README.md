@@ -43,6 +43,16 @@ The project consists of the following modules:
       mvn -Dspring-boot.run.arguments="--server.port=8081" spring-boot:run
       ```
 
+## Screenshots
+
+### Spring Cloud Netflix Eureka Server Console
+
+<img src="uni-docs/eureka_console.png" alt="Eureka Server Console" style="width:100%;"/>
+
+### Client-Side Load Balancer with Multiple Microservice Instances
+
+<img src="uni-docs/load_balancer.png" alt="Client-Side Load Balancer" style="width:100%;"/>
+
 ## License
 
 This project is licensed under the MIT License.
