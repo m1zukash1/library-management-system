@@ -1,8 +1,48 @@
-# 🚧 Project WIP 🚧
+# Library Management System - Homework 2
 
-Welcome to the **Library Management System**! 📚  
-This project is implemented as part of my university assignment. 🎓📖  
+This repository contains the implementation of a Spring Cloud distributed microservices application developed as part of the Homework 2 assignment for the Distributed Systems course at Vilniaus Gedimino Technikos Universitetas.
 
-Currently under construction. In the meantime, enjoy this funny picture of my cat:  
+## Overview
 
-![Funny Cat](https://i.imgur.com/8X8lCk4.png)
+The project consists of the following modules:
+
+- **discovery-service**: A Spring Cloud Discovery Service using Netflix Eureka that registers and discovers microservices.
+- **config-server**: A Spring Cloud Config Server that provides centralized configuration management.
+- **microservice**: A microservice application adapted from the previous homework task for library management.
+
+## Prerequisites
+
+- Java 21
+- Maven
+- Git
+
+## Running the Applications
+
+1. **Discovery Service**
+    - Navigate to the `discovery-service` directory.
+    - Run the application with:
+      ```bash
+      mvn spring-boot:run
+      ```
+
+2. **Config Server**
+    - Navigate to the `config-server` directory.
+    - Run the application with:
+      ```bash
+      mvn spring-boot:run
+      ```
+
+3. **Microservice**
+    - Navigate to the `microservice` directory.
+    - Run the application with:
+      ```bash
+      mvn spring-boot:run
+      ```
+    - To run additional instances of the microservice (for client-side load balancing), specify a different server port. For example:
+      ```bash
+      mvn -Dspring-boot.run.arguments="--server.port=8081" spring-boot:run
+      ```
+
+## License
+
+This project is licensed under the MIT License.
