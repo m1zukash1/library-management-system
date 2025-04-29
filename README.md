@@ -11,7 +11,7 @@ This repository hosts a series of Distributed Systems assignments for a universi
 | `homework-task-1`  | **Homework #1: Spring Boot Monolith**        | Foundation app with ER model, JPA entities, REST endpoints, XML export, and initial data loader.                                  |
 | `homework-task-2`  | **Homework #2: Spring Cloud Microservices**  | Distributed system with Eureka discovery, Config Server, client-side load balancing, and optional Spring Cloud Gateway.            |
 | N/A                | **Homework #3: Live Student Presentations**  | Each student delivered a live presentation on a Distributed Systems topic; mine covered RPC. Slides and notes are in `uni-docs/`. |
-| N/A                | **Homework #4: Hadoop Installation on Linux**| - We were given a very brief task: “install Hadoop on a Linux machine,” and could freestyle the approach however we wanted. I chose to implement it on a minimal Debian WSL environment; full installation notes are in `uni-docs/`. |
+| N/A                | **Homework #4: Hadoop Installation on Linux**| We were given a very brief task: “install Hadoop on a Linux machine,” and could freestyle the approach however we wanted. I chose to implement it on a minimal Debian WSL environment; full installation notes are in `uni-docs/`. |
 | N/A                | **Homework #5: Apache Cassandra Installation**| Similar to Homework 4, we were given only basic instructions and could freestyle the entire installation process. I installed Apache Cassandra on the same Debian WSL setup; full task details are in `uni-docs/`. |
 
 ## Contributing
