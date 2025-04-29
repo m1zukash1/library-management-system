@@ -1,58 +1,23 @@
-# Library Management System - Homework 2
-
-This repository contains the implementation of a Spring Cloud distributed microservices application developed as part of the Homework 2 assignment for the Distributed Systems course at Vilniaus Gedimino Technikos Universitetas.
+# Library Management System: A Complete Distributed Systems Homework Series for a University Course
 
 ## Overview
 
-The project consists of the following modules:
+This repository hosts a series of Distributed Systems assignments for a university course, each focused on evolving a **Library Management System**. Starting from a monolithic Spring Boot application and progressing to a fully distributed microservices architecture, every homework task lives in its own branch.
 
-- **discovery-service**: A Spring Cloud Discovery Service using Netflix Eureka that registers and discovers microservices.
-- **config-server**: A Spring Cloud Config Server that provides centralized configuration management.
-- **microservice**: A microservice application adapted from the previous homework task for library management.
+## Homeworks
 
-## Prerequisites
+| Branch             | Assignment                                   | Description                                                                                                                        |
+|--------------------|----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| `homework-task-1`  | **Homework #1: Spring Boot Monolith**        | Foundation app with ER model, JPA entities, REST endpoints, XML export, and initial data loader.                                  |
+| `homework-task-2`  | **Homework #2: Spring Cloud Microservices**  | Distributed system with Eureka discovery, Config Server, client-side load balancing, and optional Spring Cloud Gateway.            |
+| N/A                | **Homework #3: Live Student Presentations**  | Each student delivered a live presentation on a Distributed Systems topic; mine covered RPC. Slides and notes are in `uni-docs/`. |
+| N/A                | **Homework #4: Hadoop Installation on Linux**| - We were given a very brief task: “install Hadoop on a Linux machine,” and could freestyle the approach however we wanted. I chose to implement it on a minimal Debian WSL environment; full installation notes are in `uni-docs/`. |
+| N/A                | **Homework #5: Apache Cassandra Installation**| Similar to Homework 4, we were given only basic instructions and could freestyle the entire installation process. I installed Apache Cassandra on the same Debian WSL setup; full task details are in `uni-docs/`. |
 
-- Java 21
-- Maven
-- Git
+## Contributing
 
-## Running the Applications
-
-1. **Discovery Service**
-    - Navigate to the `discovery-service` directory.
-    - Run the application with:
-      ```bash
-      mvn spring-boot:run
-      ```
-
-2. **Config Server**
-    - Navigate to the `config-server` directory.
-    - Run the application with:
-      ```bash
-      mvn spring-boot:run
-      ```
-
-3. **Microservice**
-    - Navigate to the `microservice` directory.
-    - Run the application with:
-      ```bash
-      mvn spring-boot:run
-      ```
-    - To run additional instances of the microservice (for client-side load balancing), specify a different server port. For example:
-      ```bash
-      mvn -Dspring-boot.run.arguments="--server.port=8081" spring-boot:run
-      ```
-
-## Screenshots
-
-### Spring Cloud Netflix Eureka Server Console
-
-<img src="uni-docs/eureka_console.png" alt="Eureka Server Console" style="width:100%;"/>
-
-### Client-Side Load Balancer with Multiple Microservice Instances
-
-<img src="uni-docs/load_balancer.png" alt="Client-Side Load Balancer" style="width:100%;"/>
+This is a university project, and I have no intention of working on it further. It is here solely to showcase my work.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is released under the MIT License. See [LICENSE](LICENSE) for details.
